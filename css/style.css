@@ -1,6 +1,6 @@
 @font-face{
     font-family: jetBrainsMono;
-    src: url(fonts/JetBrainsMono-Regular.ttf)
+    src: url(../fonts/JetBrainsMono-Regular.ttf)
 }
 
 * {
@@ -35,4 +35,4 @@ a {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
+}
