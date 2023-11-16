@@ -1,0 +1,99 @@
+// Custom.scss
+
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap'); 
+
+$font-family-base: 'JetBrains Mono', monospace; 
+
+$mantle:#181825;
+$base: #1e1e2e;
+$maroon: #eba0ac;
+$green: #a6e3a1;
+$red: #f38ba8;
+$peach: #fab387;
+$lavender: #b4befe;
+$sapphire: #74c7ec;
+$subtext0: #a6adc8;
+
+$primary: $maroon;
+$secondary: $lavender;
+$success: $sapphire;
+$warning: $peach;
+$danger: $red;
+$info: $green;
+$dark: $mantle;
+$light: $subtext0;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+ 
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+
+body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: $maroon;
+  border-bottom-color: $maroon;
+}
+
+// New body classes
+.box1{
+    background-color: $dark;
+    box-shadow: 0 0 0 1em $dark;
+}
