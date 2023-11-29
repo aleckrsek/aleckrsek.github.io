@@ -12025,4 +12025,8 @@ body {
 .box1 {
   background-color: #181825;
   box-shadow: 0 0 0 1em #181825;
+}
+
+.left-block {
+  margin-left: 1rem;
 }/*# sourceMappingURL=custom.css.map */
