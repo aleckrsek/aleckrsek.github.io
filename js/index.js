@@ -50,7 +50,7 @@ function documentedSourceCode(){
 }
 
 function personalProjects(){
-  content.innerHTML = "Completed projects I’ve done would be my dotfiles for my old Linux desktop. Not really programming, but really in-depth configuration. <br>I am currently working on this portfolio website, hopefully with some fancy css.";
+  content.innerHTML = "Completed projects I’ve done would be my dotfiles for my old Linux desktop. Not really programming, but really in-depth configuration. I am currently working on this portfolio website, hopefully with some fancy css.";
 }
 
 function relevantExperiences(){
