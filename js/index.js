@@ -38,7 +38,7 @@ function showHome(){
 }
 
 function education(){
-  content.innerHTML = "Besides being a freshman in college, I was studying at Central Oregon Community College for 3 terms while I was a junior in high school.";
+  content.innerHTML = "Besides being a sophomore at OSU Cascades, I was studying at Central Oregon Community College for 3 terms while I was a junior in high school.";
 }
 
 function relevantSkills(){
